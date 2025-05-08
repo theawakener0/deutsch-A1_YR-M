@@ -1,0 +1,514 @@
+.go {
+    position: top;
+    width:100px;
+    length: 100px
+}
+
+
+.A {
+    background-color: rgb(25, 0, 255);
+    color: black;
+    padding: 50px;
+    margin-right: 500px;
+    margin-left: 90px;
+    border: 10px solid;
+    border-bottom: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.B {
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 0, 255);
+    margin-left: 90px;
+    margin-right: 50px;
+    padding: 10px;
+    padding-left: 500px;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: rgb(238, 204, 204);
+    border-style: dashed;
+}
+
+.C {
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-style: italic;
+}
+
+.D {
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 0, 255);
+    margin-left: 90px;
+    margin-right: 50px;
+    padding: 10px;
+    padding-left: 500px;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: rgb(238, 204, 204);
+    border-style: dashed;
+
+}
+
+.E {
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-style: italic;
+}
+
+.F {
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 0, 255);
+    margin-left: 90px;
+    margin-right: 50px;
+    padding: 10px;
+    padding-left: 500px;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: rgb(238, 204, 204);
+    border-style: dashed;
+
+}
+
+.G {
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-style: italic;
+}
+
+.H {
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 0, 255);
+    margin-left: 90px;
+    margin-right: 50px;
+    padding: 10px;
+    padding-left: 500px;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: rgb(238, 204, 204);
+    border-style: dashed;
+}
+
+.I {
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-style: italic;
+}
+
+.J {
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 0, 255);
+    margin-left: 90px;
+    margin-right: 50px;
+    padding: 10px;
+    padding-left: 500px;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: rgb(238, 204, 204);
+    border-style: dashed;
+}
+
+.K {
+    color: rgba(0, 255, 255, 0.858);
+    font-size: larger;
+    font-style: oblique;
+}
+
+.L {
+    color: rgb(250, 250, 255);
+    font-size: x-large;
+    font-style: italic;
+}
+
+.M {
+    color: rgba(0, 255, 255, 0.858);
+    font-size: larger;
+    font-style: oblique;
+}
+
+.N {
+    color: rgb(250, 250, 255);
+    font-size: x-large;
+    font-style: italic;
+}
+
+.O {
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 0, 255);
+    margin-left: 90px;
+    margin-right: 50px;
+    padding: 10px;
+    padding-left: 500px;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: rgb(238, 204, 204);
+    border-style: dashed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.P {
+
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    font-style: Arial Rounded MT;
+    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-left: 40%;
+    padding-top: 10%;
+    padding-bottom: 0%;
+}
+
+
+.Q {
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-style: italic;
+}
+
+
+
+
+
+
+.R {
+    color: rgb(21, 0, 255);
+    font-size: 250%;
+    font-style: Arial Rounded MT;
+
+}
+
+.S {
+    color: rgb(255, 255, 255);
+    font-size: 250%;
+    font-style: Arial Rounded MT;
+}
+
+.T {
+    color: rgb(217, 181, 90);
+    font-size: 200%;
+    font-style: Arial Rounded MT;
+}
+
+.U {
+    color: aliceblue;
+    font-size: 200%;
+    font-style: Arial Rounded MT;
+}
+
+.V {
+    color: aliceblue;
+    font-size: 200%;
+    font-style: Arial Rounded MT;
+}
+
+.W {
+    color: aliceblue;
+    font-size: 200%;
+    font-style: Arial Rounded MT;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0, 1);
+    font-size: 150%;
+}
+
+thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px dashed #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+td {
+    color: #333
+}
+
+
+.S {
+    background-color: rgb(25, 0, 255);
+    color: black;
+    margin-right: 500px;
+    margin-left: 90px;
+    margin-top: 50px;
+    border: 10px dashed white;
+    border-bottom-width: 10px;
+    border-bottom-style: dashed;
+    border-bottom-color: white;
+    border-bottom: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 50px;
+    text-align: center;
+}
+
+.Y {
+    color: black;
+    background-color: white;
+    font-size: larger;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+.Z {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+
+}
+
+.Z {
+    position: relative;
+    width: 700px;
+    height: 20px;
+    background: #222;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.Z a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+}
+
+.Z span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(56deg, #4f1919, #ff3333);
+    border-radius: 8px;
+    transition: .5s;
+}
+
+
+.Z a:nth-child(1):hover~span {
+    left: 0;
+}
+
+.Z a:nth-child(2):hover~span {
+    left: 150px;
+}
+
+.Z a:nth-child(3):hover~span {
+    left: 330px;
+    width: 80px;
+}
+
+.Z a:nth-child(4):hover~span {
+    left: 400px;
+    width: 80px;
+}
+
+.Z a:nth-child(5):hover~span {
+    left: 480px;
+    width: 80px;
+}
+
+.Z a:nth-child(6):hover~span {
+    left: 550px;
+    width: 90px;
+}
+
+
+
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+.A1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+
+}
+
+.A1 {
+    position: relative;
+    width: 700px;
+    height: 20px;
+    background: #222;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.A1 a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+}
+
+.A1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(56deg, #4f1919, #ff3333);
+    border-radius: 8px;
+    transition: .5s;
+}
+
+
+.A1 a:nth-child(1):hover~span {
+    left: 0;
+}
+
+.A1 a:nth-child(2):hover~span {
+    left: 150px;
+    width: 80px;
+}
+
+.A1 a:nth-child(3):hover~span {
+    left: 250px;
+    width: 80px;
+}
+
+.A1 a:nth-child(4):hover~span {
+    left: 350px;
+    width: 90px;
+}
+
+.A1 a:nth-child(5):hover~span {
+    left: 450px;
+    width: 90px;
+}
+
+.A1 a:nth-child(6):hover~span {
+    left: 550px;
+    width: 90px;
+}
+
+
+footer {
+    background-color: rgb(44, 2, 74);
+    padding-top: 50px;
+    margin-top: 30px;
+
+}
+
+.container {
+    width: 1140;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.C1 {
+    color: white;
+    width: 33.3%;
+    padding-left: 33.3px;
+
+}
+
+h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    padding-left: 50px;
+}
+
+.D1 {
+    color: rgb(0, 0, 0);
+    width: auto;
+    text-align: center;
+    list-style-type: italic;
+    padding: 10px;
+    position: relative;
+}
+
+
+
+.E1 {
+    background-color: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.F1 {
+    color: #fff;
+    padding-left: 50px;
+}
+
+.D1 {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 23px;
+}
+
+body{
+    background-color: rgb(0, 13, 87) ;
+    
+}
