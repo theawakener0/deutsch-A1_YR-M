@@ -1,51 +1,51 @@
+/* Global Variables */
+:root {
+    --primary-color: #1900ff; /* rgb(25, 0, 255) */
+    --secondary-color: #ff3333;
+    --text-color-light: #ffffff;
+    --text-color-dark: #000000;
+    --text-color-medium: #333333;
+    --accent-color-red: #ff0000;
+    --accent-color-aqua: rgba(0, 255, 255, 0.858);
+    --accent-color-gold: #d9b55a; /* rgb(217, 181, 90) */
+    --background-dark: #222222;
+    --background-body: #000d57; /* rgb(0, 13, 87) */
+    --border-color-light: #eeeeee; /* Approximation of rgb(238, 204, 204) */
+    --border-color-table: #dddddd;
+    --font-impact: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --font-rounded: 'Arial Rounded MT', Arial, sans-serif; /* Added fallback */
+    --spacing-unit: 10px;
+    --container-width: 1140px;
+}
+
+/* CSS Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-body);
+    font-family: var(--font-impact); /* Default font, can be overridden */
+    color: var(--text-color-light); /* Default text color for body */
+}
+
+/* General Purpose Classes & Fixes */
 .go {
-    position: top;
-    width:100px;
-    length: 100px
+    position: absolute; /* Changed from 'top' */
+    top: 0; /* Added for positioning */
+    width: 100px;
+    height: 100px; /* Changed from 'length' */
 }
 
-
+/* Section A Styles */
 .A {
-    background-color: rgb(25, 0, 255);
-    color: black;
-    padding: 50px;
-    margin-right: 500px;
-    margin-left: 90px;
-    border: 10px solid;
-    border-bottom: red;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-}
-
-.B {
-    color: rgb(255, 255, 255);
-    background-color: rgb(25, 0, 255);
-    margin-left: 90px;
-    margin-right: 50px;
-    padding: 10px;
-    padding-left: 500px;
-    font-size: larger;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-color: rgb(238, 204, 204);
-    border-style: dashed;
-}
-
-.C {
-    color: rgb(255, 255, 255);
-    font-size: x-large;
-    font-style: italic;
-}
-
-.D {
-    color: rgb(255, 255, 255);
-    background-color: rgb(25, 0, 255);
-    margin-left: 90px;
-    margin-right: 50px;
-    padding: 10px;
-    padding-left: 500px;
-    font-size: larger;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-color: rgb(238, 204, 204);
+    background-color: var(--primary-color);
+    color: var(--text-color-dark);
+    padding: calc(var(--spacing-unit) * 5); /* 50px */
+    margin-right: calc(var(--spacing-unit) * 50); /* 500px */
+    margin-left: calc(var(--spacing-unit) * 9);  /* 90px */
     border-style: dashed;
 
 }
@@ -144,17 +144,6 @@
     border-color: rgb(238, 204, 204);
     border-style: dashed;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 .P {
