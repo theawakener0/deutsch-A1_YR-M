@@ -33,19 +33,56 @@ body {
 
 /* General Purpose Classes & Fixes */
 .go {
-    position: absolute; /* Changed from 'top' */
-    top: 0; /* Added for positioning */
+    position: top;
     width: 100px;
-    height: 100px; /* Changed from 'length' */
+    height: 100px
+}
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
 }
 
-/* Section A Styles */
 .A {
-    background-color: var(--primary-color);
-    color: var(--text-color-dark);
-    padding: calc(var(--spacing-unit) * 5); /* 50px */
-    margin-right: calc(var(--spacing-unit) * 50); /* 500px */
-    margin-left: calc(var(--spacing-unit) * 9);  /* 90px */
+    background-color: rgb(25, 0, 255);
+    color: black;
+    padding: 50px;
+    margin-right: 500px;
+    margin-left: 90px;
+    border: 10px solid;
+    border-bottom: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.B {
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 0, 255);
+    margin-left: 90px;
+    margin-right: 50px;
+    padding: 10px;
+    padding-left: 500px;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: rgb(238, 204, 204);
+    border-style: dashed;
+}
+
+.C {
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-style: italic;
+}
+
+.D {
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 0, 255);
+    margin-left: 90px;
+    margin-right: 50px;
+    padding: 10px;
+    padding-left: 500px;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: rgb(238, 204, 204);
     border-style: dashed;
 
 }
@@ -109,7 +146,7 @@ body {
 }
 
 .K {
-    color: rgba(0, 255, 255, 0.858);
+    color: rgba(255, 255, 255, 0.858);
     font-size: larger;
     font-style: oblique;
 }
@@ -121,7 +158,7 @@ body {
 }
 
 .M {
-    color: rgba(0, 255, 255, 0.858);
+    color: rgba(255, 255, 255, 0.858);
     font-size: larger;
     font-style: oblique;
 }
@@ -144,6 +181,17 @@ body {
     border-color: rgb(238, 204, 204);
     border-style: dashed;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 .P {
@@ -244,7 +292,7 @@ td {
 
 .S {
     background-color: rgb(25, 0, 255);
-    color: black;
+    color: rgb(255, 255, 255);
     margin-right: 500px;
     margin-left: 90px;
     margin-top: 50px;
@@ -261,7 +309,7 @@ td {
 .Y {
     color: black;
     background-color: white;
-    font-size: larger;
+    font-size:x-large;
 }
 
 * {
@@ -272,7 +320,7 @@ td {
 }
 
 .Z {
-    display: flex;
+    display:block;
     justify-content: center;
     align-items: center;
     min-height: 30vh;
@@ -360,12 +408,12 @@ td {
     justify-content: center;
     align-items: center;
     min-height: 30vh;
-
+   
 }
 
 .A1 {
     position: relative;
-    width: 700px;
+    width: 1000px;
     height: 20px;
     background: #222;
     border-radius: 8px;
@@ -401,31 +449,31 @@ td {
 
 
 .A1 a:nth-child(1):hover~span {
-    left: 0;
+    left:120px;
 }
 
 .A1 a:nth-child(2):hover~span {
-    left: 150px;
-    width: 80px;
+    left:300px;
+    width: 180px;
 }
 
 .A1 a:nth-child(3):hover~span {
-    left: 250px;
+    left: 490px;
     width: 80px;
 }
 
 .A1 a:nth-child(4):hover~span {
-    left: 350px;
+    left: 590px;
     width: 90px;
 }
 
 .A1 a:nth-child(5):hover~span {
-    left: 450px;
+    left: 690px;
     width: 90px;
 }
 
 .A1 a:nth-child(6):hover~span {
-    left: 550px;
+    left: 790px;
     width: 90px;
 }
 
@@ -498,6 +546,6 @@ h3 {
 }
 
 body{
-    background-color: rgb(0, 13, 87) ;
+    background-color: rgb(50, 143, 150) ;
     
 }
